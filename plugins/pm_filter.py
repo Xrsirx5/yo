@@ -413,17 +413,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/dqautofl_bot?startgroup=true')
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url='http://t.me/dqautofl_bot?startgroup=true')
             ],[
             InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/EDIT_REPO')
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/Tvmoviehere')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
             InlineKeyboardButton('⚡ share me ⚡', url='https://t.me/share/url?url=https://t.me/Don_movie_robot')
             ],[
-            InlineKeyboardButton( ⚡'say dev7 url='https
+            InlineKeyboardButton('🙆‍♂️ my dev 🙆‍♂️', url='https://t.me/A6rzuxpt69drdr6t9d5')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -439,11 +439,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
             InlineKeyboardButton('sᴏɴɢ', callback_data='song'),
-            InlineKeyboardButton('ʙʀᴏᴀᴅᴄᴀsᴛ', callback_data='broadcast')
+            InlineKeyboardButton('Admin', callback_data='broadcast')
             ],[
             InlineKeyboardButton('ᴘɪɴ', callback_data='pin'),
-            InlineKeyboardButton('ᴊsON', callback_data='json'),
-            InlineKeyboardButton('ᴡʜᴏIS', callback_data='whois')
+            InlineKeyboardButton('ᴊson', callback_data='json'),
+            InlineKeyboardButton('ᴡʜᴏis', callback_data='whois')
             ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'), 
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
